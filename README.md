@@ -1,7 +1,7 @@
 ## Getting Started
 * Fork and clone this repo
-* Run `yarn` to install all necessary dependencies
-* Run `yarn start` to start up the app
+* Run `yarn` OR `npm install` to install all necessary dependencies
+* Run `yarn start` OR `npm start` to start up the app
 
 ## Part 1
 #### Preparing to build
@@ -18,10 +18,10 @@ Take a look at the `<App />` component provided for you as a starting point for 
 Ask yourself. What logical collection of elements should be grouped together to comprise a component?
 Of those components which ones should be subcomponents of another component?
 
-![Mock Up](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/480/camera-shop-mock.jpg)
+![Mock Up](overview-photo.PNG)
 
 Once you have sketched out the component hierarchy start to implement a static version of it in React.
-Have your components render out placeholder text of the name of the component if that helps you visualize the components, as the Header/Main/Footer components are right now in the components folder.
+Have your components render out placeholder text of the name of the component if that helps you visualize the components, as the Header/Main/Footer components are already in the components folder.
 
 <hr />
 
@@ -37,17 +37,14 @@ Have your components render out placeholder text of the name of the component if
 ## Part 3
 ### Requirements:
 
-![Camera Shop Example](camera_example_part2.gif)
+![Camera Shop Example](base-gif.gif)
 
 The camera shop page will require the following functionality:
 
 1. Display of the data in some format.
 1. The price is formatted into a currency
 1. The words "On SALE!" (or some form) are used when `onSale` is true
-1. The ability to sort by name or rating (default is name)
-1. The ability to search to filter the results (keeping the same order).
-1. A custom filter to handle the conversion of the rating from a number
-   to asterisks. It is assumed that the rating will be an integer.
+1. The ability to search to filter the results.
 
 ## Requirements - Part 2
 
@@ -63,11 +60,9 @@ The goal of part 2 is to add cart functionality.
 
 ## Stretch Goals
 
-### Use React Router v4 to build a React user interface.
-
-### User stories:
-* When a user visits "/" your new Home component should render.
-* When a user visits "/cart" a Cart, or checkout, component should render.
+* The ability to sort by name or rating (default is name)
+* Use the [ReactStars](https://www.npmjs.com/package/react-stars) library to replace the rating number with a set of stars. Make sure that the user can't edit the rating.
+* Using React Router v4 to build a React user interface, create the ability for a user to visit "/cart", which will render a `Cart` (or `Checkout`), component.
 
 The `Cart` (or `Checkout`) component is different from your live cart preview component, but instead the page where users will fill in their info when submitting an order.
 
