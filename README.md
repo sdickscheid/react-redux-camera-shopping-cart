@@ -28,7 +28,7 @@ Have your components render out placeholder text of the name of the component if
 ## Part 2
 ### Style your app.
 
-**Base Goal**: Use Reactstrap to style the app.
+**Base Goal**: Use [Reactstrap](https://reactstrap.github.io/) to style the app.
 
 **Stretch Goal** (only if you have already finished the version with Reactstrap): Restyle in MaterialUI
 
@@ -52,9 +52,10 @@ The goal of part 2 is to add cart functionality.
 
 ### User Stories:
 
-1. When the user clicks "Add to Cart", the cart manages the item inserted. Subsequent adds increase the quantity of the item.
-1. User can remove an item from the cart by clicking on a button (it will remove the entire quantity of that item).
+1. When the user clicks "Add to Cart", the item is added to the cart.
+1. The user can remove an item from the cart by clicking on a button.
 1. The subtotal, tax (use 8.6%), and total are calculated in place.
+1. The `CHECKOUT` button will have no functionality at this time.
 
 <hr />
 
