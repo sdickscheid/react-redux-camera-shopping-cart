@@ -1,24 +1,72 @@
-.App {
+.nav-bar {
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
+
+}
+.main-container {
+  padding-top: 50px;
+  background-color: #eeeeee;
+}
+
+.footer-container {
+
+}
+
+/* Main Display Component */
+.product-card {
+    margin-bottom: 1em;
+  }
+
+.card-product-title {
+  font-size: 28px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.cart-card {
+  background-color: #C5BEB5;
+  /*border: 1px solid #bbbbbb;*/
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.cart-card-title {
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
+.shopping-cart-icon {
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.cart-item-container {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #FFE2B5;
+}
+
+.shopping-cart-delete-icon {
+  float: right;
+  margin-right: 20px;
+}
+
+.cart-checkout-btn {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #1CA7AB !important;
+}
+
+.camera-img {
+  height: 275px;
+  width: 225px;
+  /*border: 1px solid #ccc;*/
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+.filter-container {
+  margin: 0 15px;
+}
+
+.header-image {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
 }
